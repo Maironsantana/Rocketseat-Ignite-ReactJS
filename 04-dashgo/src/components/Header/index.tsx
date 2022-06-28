@@ -18,14 +18,14 @@ export function Header(){
             w="100%" 
             maxWidth={1480}
             h="20"
-            mX="auto"
+            mx="auto"
             mt="4"
             px="6"
             align="center"
         >
             <Logo />
 
-            {isWideVersion && <SearchBox />}
+            <SearchBox />
 
             <Flex
                 align="center"
@@ -33,7 +33,7 @@ export function Header(){
             >
                 
                 <NotificationsNav />
-                <Profile showProfileData={isWideVersion} />
+                <Profile showProfileData = {isWideVersion} />
             </Flex>
         </Flex>
     );
