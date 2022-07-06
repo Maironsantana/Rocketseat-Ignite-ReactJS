@@ -1,4 +1,4 @@
-import { Button } from "../../../node_modules/@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 
 interface PaginationItemProps{
     number: number;

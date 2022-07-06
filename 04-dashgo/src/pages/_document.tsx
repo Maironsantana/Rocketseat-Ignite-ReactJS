@@ -1,6 +1,5 @@
-import Document from '../../node_modules/next/document'
-import { Html, Main, NextScript } from '../../node_modules/next/document';
-import Head from '../../node_modules/next/head';
+import Document,{ Html, Main, NextScript, Head } from 'next/document';
+
 
 export default class MyDocument extends Document{
     render(){
